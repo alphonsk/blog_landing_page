@@ -1,0 +1,398 @@
+
+* { box-sizing: border-box;
+	margin: 0;
+}
+
+div {
+/*
+    border: solid black 1x;
+    background-color: aqua;
+*/
+/*    width: 100%;*/
+/*    height: 100px;*/
+}
+
+h4 {
+  font-family: font-family: "Yanone Kaffeesatz" ;
+    font-style: normal !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+
+
+.header {
+    display: block;
+    width: 100%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.headerMenu {
+    display: inline-block;
+    width: 15%;
+    height: 70px;
+    margin-left: 1%;
+    border: 1px solid blue;  
+    background-color: yellow;
+    vertical-align: top;
+}
+
+
+.headerLogo {
+    display: inline-block;
+    width: 64.8%;
+    height: 70px;
+    margin-left: 1%;
+    border: 1px solid blue;  
+    background-color: yellow;
+    vertical-align: top;
+}
+
+
+.headerSearch {
+    display: inline-block;
+    width: 15%;
+    height: 70px;
+    margin-left: 1%; 
+    border: 1px solid blue;  
+    background-color: yellow;
+    vertical-align: top;
+}
+
+.body {
+    display: block;
+    width: 100%;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bodyGreater {
+    background-image: url("images/beach.jpg");
+    height: 400px;
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    border: solid 1px #f8f8f8;
+}
+
+.bodyGreaterInfoBox {
+    width: 360px;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.bodyGreaterInfoBox h4 { 
+    text-align: center;
+    font-weight: bold; 
+}
+
+
+.bodyGreaterInfoBox p {
+    font-size: 30px; 
+    text-align: center;
+}
+
+
+.bodyGreaterLink {
+    width: 100px;
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #333333 !important;
+    color: #ffffff !important;
+    border-color: #333333 !important;
+}
+
+.bodyGreaterLink P {
+    font-size: 13px; 
+    text-align: center;
+    
+}
+
+
+/*  */
+.bodyContainer {
+    width: 90%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.bodyFeature { 
+    background-color: #f8f8f8;
+    background-image: none;
+    display: block;  
+}
+
+
+.bodyFeatureHeader {
+    display: block;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    display: block; 
+    background-color: #ffffff;
+}
+
+.bodyFeatureContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 90%; 
+    text-align: center;
+    padding: 5%;   
+}
+
+#bodyFeatureContainer {
+    width: 30%;
+    margin-left: 1%;
+    height: 300px; 
+    display: inline-block;
+}
+
+
+#bodyFeatureContainer img {
+    width: 100%;
+    height: 100%; 
+}
+
+/*
+.bodyFeatureContainer2 {
+    width: 300px;
+    margin-left: 1%;
+    height: 300px;
+    background-color: red;
+    display: inline-block;
+}
+
+.bodyFeatureContainer3 {
+    width: 300px;
+    margin-left: 1%;
+    height: 300px;
+    background-color: red;
+    display: inline-block;
+}
+*/
+
+
+/* */
+.bodyArticlesContainer { 
+    width: 100%;   
+    display: block;  
+}
+
+ 
+.bodyArticlesHeader {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 80px;
+    display: block; 
+    background-color: #ffffff;
+}
+
+
+.bodyArticlesBox { 
+    width: 90%; 
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+}
+ 
+.bodyArticlesBoxWrap { 
+    border:;
+} 
+
+#bodyArticlesEach {
+    width: 48%;
+    margin-left: 1%;  
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top; 
+    text-align: center;
+}
+
+
+#bodyArticlesEach h2 {
+    font-style: normal !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+    font-size: large;
+    text-align: center;
+}
+
+
+.articlesHeading {
+    padding: 25px;
+}
+.articlesImage {}
+
+.articlesImage img {
+    width: 100%;
+    height: auto;  
+}
+
+.articlesDescription {
+    
+}
+
+.articlesMore {
+     margin-top: 30px;
+}
+
+
+.articlesMore span { 
+    padding: 10px;
+    border: solid black 2px;
+}
+
+ 
+
+
+/* */
+
+.signUp {
+    border-top: solid 1px #cacece;
+    width: 100%;
+    display: block;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signUpHeader {
+    padding: 20px; 
+    width: 100%;
+    display: block;
+    margin-bottom: 30PX;
+}
+
+
+.signUpRequired { 
+    width: 90%;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signUpcontent {
+    display: inline-block;
+    width: 330px; 
+    padding: 10px;
+}
+ 
+
+.signUpcontent input[type=text] {
+    color: #333333;
+    width: 90%;
+    padding: 5px;
+    border: solid 1px #dddddd; 
+    font-weight: lighter;
+    box-sizing: border-box;
+    box-shadow: none; 
+    text-shadow: none;
+}
+
+
+.signUpSubmit {
+    display: block;
+    padding: 15px; 
+    margin-bottom: 40px;
+}
+
+
+ .signUpSubmit input[type=submit] {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    background-image: none !important;
+    background: #bbbbbb !important;
+    color: #666666 !important;
+    border: 2px solid #bbbbbb !important;
+}
+
+
+
+/*
+    <div class="signUp">
+        <div class="signUpHeader"></div>
+        <div class="signUpFname"></div>
+        <div class="signUpLname"></div>
+        <div class="signUpEmail"></div>
+        <div class="signUpSubmit"></div>
+    </div>
+ 
+*/
+
+.footer {
+    display: block;
+    padding: 40px; 
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+
+.footerCopy {
+    display: inline-block;
+    width: 30%;
+    padding-top: 90px;
+    vertical-align: top; 
+    font-size: 22px;
+}
+
+
+.footerLinks {
+    display: inline-block;
+    width: 67%; 
+    text-align: right;
+}
+
+
+
+
+.footerIcons { 
+    padding-top: 90px; 
+
+}
+
+
+.footerIcons img {
+width: 10px;
+}
+
+.footerIcons ul  {
+    float: right;
+    list-style-type : none;
+text-decoration : none;
+   
+}
+
+.footerIcons li  {
+    float: left; 
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+
+ 
+
+body {
+ 
+
+}
+ 
